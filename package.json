@@ -1,0 +1,26 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN stack app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs"
+  ],
+  "author": "Kirill Petrov <kllpff@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}

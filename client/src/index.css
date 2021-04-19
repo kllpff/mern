@@ -1,5 +1,7 @@
 @import "~materialize-css/dist/css/materialize.min.css";
-
+body {
+    color: #fff;
+}
 input.yellow-input {
     box-shadow: 0 1px 0 0 #fff!important;
     border-bottom: 1px solid #fff!important;

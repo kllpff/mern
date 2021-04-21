@@ -29,6 +29,8 @@ export const LinksPage = () => {
 		return <Loader/>
 	}
 
+	console.log(links)
+
 	return (
 		<>
 			{!loading && <LinksList links={links} />}
